@@ -1,0 +1,96 @@
+/* style.css */
+@import url( 
+"https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"); 
+
+body { 
+    background: rgb(58,142,180);
+    background: -moz-linear-gradient(34deg, rgba(58,142,180,1) 0%, rgba(18,0,106,1) 61%, rgba(131,69,252,1) 100%);
+    background: -webkit-linear-gradient(34deg, rgba(58,142,180,1) 0%, rgba(18,0,106,1) 61%, rgba(131,69,252,1) 100%);
+    background: linear-gradient(34deg, rgba(58,142,180,1) 0%, rgba(18,0,106,1) 61%, rgba(131,69,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a8eb4",endColorstr="#8345fc",GradientType=1);
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.generator { 
+	background-color: #041E42; 
+	width: 450px; 
+    height: 400px;
+	margin: 150px auto; 
+	padding: 30px; 
+	border-radius: 10px; 
+} 
+
+div.password { 
+	display: grid; 
+	grid-template-columns: auto min-content; 
+	border-radius: 10px; 
+    margin: 50px;
+	overflow: hidden; 
+} 
+span{
+    color: #ffffff;
+}
+div.password input { 
+	padding: 7px 10px; 
+	background-color: #022556; 
+	border: 0; 
+    width: auto;
+    font-size: large;
+	color: white; 
+} 
+
+button { 
+	background-color: #021e60; 
+	color: #ffffff; 
+	text-transform: uppercase; 
+	padding: 5px 20px; 
+    height: 50px;
+	border: 0; 
+	border-radius: 10px; 
+} 
+
+div.password button { 
+	border-radius: 0; 
+} 
+
+div.range { 
+	margin: 10px 0; 
+	display: grid; 
+	grid-template-columns: 1fr min-content; 
+} 
+
+div.range span { 
+	background-color: #151731; 
+	padding: 10px; 
+	margin-left: 20px; 
+	min-width: 30px; 
+	text-align: center; 
+	border-radius: 10px; 
+} 
+
+div.options { 
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	gap: 10px; 
+} 
+
+div.options label { 
+	display: block; 
+	background-color: #030f38; 
+	padding: 10px; 
+	border-radius: 10px; 
+	cursor: pointer; 
+	font-family: sans-serif; 
+} 
+
+button.generate { 
+	width: 100%; 
+    height: 20%;
+	margin-top: 10px; 
+	padding: 10px; 
+} 
+
+h1 { 
+	text-align: center; 
+    padding-top: 8%;
+	color: #ffffff; 
+}
